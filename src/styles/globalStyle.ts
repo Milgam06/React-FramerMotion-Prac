@@ -1,5 +1,4 @@
 //global style
-
 import { css } from "@emotion/react";
 
 import { reset } from "./reset";
@@ -19,6 +18,7 @@ export const globalStyle = () => css`
 
   html {
     font-size: 1rem;
+    background: linear-gradient(to left bottom, #7200ff, #f9009d);
   }
 
   body {
