@@ -7,6 +7,10 @@ export const MainContentWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  border: 1px solid black;
+  padding: 5rem 2rem;
 `;
 
 export const FirstFramer = styled(motion.div)`
