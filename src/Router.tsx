@@ -13,8 +13,9 @@ export const Router: React.FC = () => {
               <Outlet />
             </DefaultLayout>
           }
-        />
-        <Route path="/" element={<MainPage />} />
+        >
+          <Route path="/" element={<MainPage />} />
+        </Route>
       </Routes>
     </>
   );
