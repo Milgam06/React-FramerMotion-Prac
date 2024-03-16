@@ -1,3 +1,5 @@
+import { Navbar } from "@/components/common";
+
 import * as S from "./styled";
 
 export interface DefaultLayoutProps {
@@ -7,7 +9,12 @@ export interface DefaultLayoutProps {
 export const DefaultLayout: React.FC<DefaultLayoutProps> = ({ children }) => {
   return (
     <>
-      <S.DefaultLayoutContainer>{children}</S.DefaultLayoutContainer>
+      <S.DefaultLayoutContainer>
+        <Navbar />
+        <S.DefaultLayoutInnerContainer>
+          {children}
+        </S.DefaultLayoutInnerContainer>
+      </S.DefaultLayoutContainer>
     </>
   );
 };
