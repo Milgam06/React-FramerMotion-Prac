@@ -8,8 +8,7 @@ export const MainContentWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  row-gap: 2rem;
-  border: 1px solid black;
+  row-gap: 3rem;
   padding: 5rem 2rem;
 `;
 
