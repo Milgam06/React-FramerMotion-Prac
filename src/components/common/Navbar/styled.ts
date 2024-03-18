@@ -17,7 +17,7 @@ export const NavbarInnerContainer = styled.div`
   align-items: center;
   column-gap: 60rem;
   padding: 1.4rem 2.6rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 5rem;
 `;

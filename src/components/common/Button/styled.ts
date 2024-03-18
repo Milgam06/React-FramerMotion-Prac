@@ -12,6 +12,11 @@ export const ButtonWrapper = styled(motion.div)<ButtonProps>`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right bottom, #0076ff, #7400ff);
+  /* background: linear-gradient(to right bottom, #0076ff, #7400ff); */
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.6)
+  );
   cursor: pointer;
 `;
