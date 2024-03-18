@@ -1,3 +1,3 @@
 export * from "./Button";
 export * from "./Navbar";
-export * from ".";
+export * from "./Text";

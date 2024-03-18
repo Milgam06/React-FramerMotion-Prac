@@ -7,6 +7,13 @@ export interface TextProps {
   colors?: string;
 }
 
+/**
+ *
+ * @param children : React.ReactNode
+ * @param size : number
+ * @param weight : number
+ * @param colors? : string
+ */
 export const Text: React.FC<TextProps> = ({
   children,
   size = 1,

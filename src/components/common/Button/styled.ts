@@ -13,4 +13,5 @@ export const ButtonWrapper = styled(motion.div)<ButtonProps>`
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right bottom, #0076ff, #7400ff);
+  cursor: pointer;
 `;

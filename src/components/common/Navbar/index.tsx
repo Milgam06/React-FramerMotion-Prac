@@ -6,11 +6,12 @@ export const Navbar: React.FC = () => {
     <>
       <S.NavbarContainer>
         <S.NavbarInnerContainer>
-          <S.NavbarTitleWrapper>
-            <Text size={2.4} weight={800} colors="#fff">
-              FramerMotion
-            </Text>
-          </S.NavbarTitleWrapper>
+          <Text size={2.2} weight={800} colors="#fff">
+            FramerMotion
+          </Text>
+          <Text size={1.6} weight={600} colors="#fff">
+            GIT
+          </Text>
         </S.NavbarInnerContainer>
       </S.NavbarContainer>
     </>

@@ -15,15 +15,9 @@ export const NavbarInnerContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  padding: 1rem 2rem;
+  column-gap: 60rem;
+  padding: 1.4rem 2.6rem;
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 5rem;
-`;
-
-export const NavbarTitleWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `;
