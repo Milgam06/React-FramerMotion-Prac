@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { motion } from "framer-motion";
 
 export const MainContentWrapper = styled.div`
   width: 100%;
@@ -8,12 +7,7 @@ export const MainContentWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  row-gap: 3rem;
-  padding: 5rem 2rem;
-`;
-
-export const FirstFramer = styled(motion.div)`
-  width: 10rem;
-  height: 10rem;
-  background-color: red;
+  row-gap: 4rem;
+  padding: 5rem 0;
+  padding-top: 12rem;
 `;

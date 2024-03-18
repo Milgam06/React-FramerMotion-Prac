@@ -1,7 +1,6 @@
 import React from "react";
 
-import { Container } from "@/components";
-import { Button } from "@/components/common/Button";
+import { Container, Button, Text } from "@/components";
 
 import * as S from "./styled";
 
@@ -10,9 +9,21 @@ export const MainPage: React.FC = () => {
     <>
       <Container>
         <S.MainContentWrapper>
-          <Button sizes={true}>wsdf</Button>
-          <Button sizes={true}>wsdsadjfhsadkfh;f</Button>
-          <Button sizes={true}>wsdf</Button>
+          <Button sizes={true}>
+            <Text size={3} weight={900} colors="#fff">
+              asdf
+            </Text>
+          </Button>
+          <Button sizes={true}>
+            <Text size={3} weight={900} colors="#fff">
+              asdasdfasdff
+            </Text>
+          </Button>
+          <Button sizes={true}>
+            <Text size={3} weight={900} colors="#fff">
+              asasdfasdfdf
+            </Text>
+          </Button>
         </S.MainContentWrapper>
       </Container>
     </>
